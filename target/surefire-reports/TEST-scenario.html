@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>scenario.feature</title>
+    </head>
+    <body>
+        <div>
+            <div>Webshop Maak een nieuwe order aan</div>
+            <div>
+                <div>url 'http://172.16.120.41:9082/basic' passed</div>
+                <div>request passed</div>
+                <div>soap action 'http://tempuri.org/IServiceFMKBT/SetOrder' passed</div>
+                <div>status 200 passed</div>
+                <div>def printResult = //SetOrderResult passed</div>
+                <div>print printResult + ' &lt;----- Resultaat van de query (Nieuwe Ordernummer)' passed</div>
+                <div>assert printResult &gt; 700000 passed</div>
+            </div>
+        </div>
+        <div>
+            <div>Webshop roept beschikbaarheid van het zojuist bestelde product</div>
+            <div>
+                <div>url 'http://172.16.120.41:9082/basic' passed</div>
+                <div>request passed</div>
+                <div>soap action 'http://tempuri.org/IServiceFMKBT/GetAvailability' passed</div>
+                <div>status 200 passed</div>
+                <div>def printResult = //GetAvailabilityResult passed</div>
+                <div>print printResult + ' &lt;----- Resultaat van de query (TEST)' passed</div>
+            </div>
+        </div>
+    </body>
+</html>
