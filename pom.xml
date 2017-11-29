@@ -16,7 +16,7 @@
             <version>2.10</version>
             <configuration>
                 <includes>
-                    <include>java/mainTestclass.java</include>
+                    <include>**/mainTestclass.java</include>
                 </includes>
                 <systemProperties>
                     <cucumber.options>--tags ~@ignore</cucumber.options>
