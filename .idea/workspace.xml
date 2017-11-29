@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d620c07-4e38-458d-b20c-5c323682d3d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/scenario.feature" afterPath="$PROJECT_DIR$/src/test/resources/scenario.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,17 +16,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scenario.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scenario.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/scenario.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/scenario.example" />
         <option value="$PROJECT_DIR$/src/main/java/mainTestclass.java" />
         <option value="$PROJECT_DIR$/src/test/java/mainTestclass.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/scenario.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/scenario.feature" />
       </list>
     </option>
   </component>
@@ -327,7 +327,7 @@
       <workItem from="1511912760286" duration="21000" />
       <workItem from="1511912788773" duration="297000" />
       <workItem from="1511913142021" duration="1271000" />
-      <workItem from="1511980374223" duration="1420000" />
+      <workItem from="1511980374223" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1511908825525</created>
@@ -364,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511981845636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1511981990211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511981990211</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -400,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3009000" />
+    <option name="totallyTimeSpent" value="3189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1232" height="778" extended-state="0" />
@@ -550,18 +557,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/scenario.example" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/scenario.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/scenario.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

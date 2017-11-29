@@ -1,4 +1,3 @@
-@ignore
 Feature:
   Background:
     * url 'http://172.16.120.41:9082/basic'
